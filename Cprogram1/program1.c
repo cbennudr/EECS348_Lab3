@@ -10,7 +10,7 @@
 #include <math.h>
 #include <string.h>
 //#define MONTHS 12
-const char *months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+char *months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
 void sales_report(double sales[12]){
 	printf("\nMonthly Sales Report for 2022:\n");
